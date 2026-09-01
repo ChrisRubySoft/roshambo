@@ -6,6 +6,7 @@ let botScore = 0;
 
 for (let roundNum = 0; roundNum < 3; roundNum++) {
   console.log(`--- Round ${roundNum + 1} ---`);
+  console.log("Pick an option: 0 = rock, 1 = paper, 2 = scissors")
   playRound();
 }
 
